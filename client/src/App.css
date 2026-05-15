@@ -1,0 +1,117 @@
+* { 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.home-container {
+  text-align: center;
+  padding: 30px;
+  position: relative;
+  background-size: cover; 
+  background-position: center center; 
+  background-repeat: no-repeat; 
+  height: 85vh; 
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+}
+
+.home-container h1 {
+  font-size: 5rem;
+  color: #150f18;
+  margin: 0 auto;
+  padding-bottom: 10rem;
+  z-index: 1; 
+}
+
+
+@media (max-width: 1024px) {
+  .home-container {
+    padding: 20px;
+    height: 70vh;
+  }
+
+  .home-container h1 {
+    font-size: 4rem;
+    padding-bottom: 7rem;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .home-container {
+    padding: 15px;
+    height: 60vh; 
+  }
+
+  .home-container h1 {
+    font-size: 3rem;
+    padding-bottom: 5rem;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .home-container {
+    padding: 10px;
+    height: 50vh; 
+  }
+
+  .home-container h1 {
+    font-size: 2rem;
+    padding-bottom: 3rem;
+  }
+}
+
+
+h1 {
+  text-align: center; 
+  font-size: 2rem; 
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+  color: #310f39; 
+}
+
+
+.login-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  padding-top: 20px;  
+}
+
+
+.toggle-form-link {
+  margin-top: 20px;  
+  text-align: center;
+}
+
+.toggle-form-link p {
+  margin: 0;
+}
+
+.toggle-form-link button {
+  background: none;
+  color: #502c5e;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.toggle-form-link button:hover {
+  color: #781a9a;
+}
+
+
+/* Footer */
+Footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #18091c;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

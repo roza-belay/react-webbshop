@@ -1,0 +1,13 @@
+.footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+}
+
+.footer strong {
+  color: #cdb8db;
+  font-size: medium;
+}
